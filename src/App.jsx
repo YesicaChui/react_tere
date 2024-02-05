@@ -1,12 +1,17 @@
+import Contenido from "./components/Contenido"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 function App() {
- 
+
 
   return (
     <>
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div className="px-12">
+        <Header />
+        <Contenido />
+        <Footer />
+      </div>
     </>
   )
 }
